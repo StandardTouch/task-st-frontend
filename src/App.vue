@@ -1,12 +1,10 @@
 <script setup>
-
+import Page from './features/page.vue';
 </script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
-</template>uery.
+  <Page/>
+</template>
 
 <style scoped>
 

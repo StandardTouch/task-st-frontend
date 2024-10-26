@@ -10,7 +10,8 @@
     <div class="relative px-4 py-10 bg-[#ffffff] shadow-lg sm:rounded-3xl sm:p-20">
       <div class="max-w-md mx-auto">
         <div>
-          <h1 class="text-2xl font-semibold" style="color: #000000;">Login To Rozi Roti</h1>
+          <!-- <h1 class="text-2xl font-semibold" style="color: #000000;">Login To Rozi Roti</h1> -->
+          <img src="/logo.png" alt="">
         </div>
         <div class="divide-y divide-gray-200">
           <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">

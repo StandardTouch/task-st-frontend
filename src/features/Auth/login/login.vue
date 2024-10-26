@@ -1,12 +1,9 @@
 <script setup>
 import { ref } from 'vue';
 
-// Define reactive refs for the password and confirm password input types
 const passwordVisible = ref(false);
-const passwordConfirmVisible = ref(false);
-
 function Alert() {
-  alert("'Sorry' Rozi Roti Does not Support Login from Google 😓, we cannot afford it.");
+  alert("'Sorry' Rozi Roti Does not Support Login from Google 😓, we can't afford it...");
 }
 
 function togglePasswordVisibility() {
@@ -23,7 +20,6 @@ function togglePasswordVisibility() {
     <div class="relative px-4 py-10 bg-[#ffffff] shadow-lg sm:rounded-3xl sm:p-20">
       <div class="max-w-md mx-auto">
         <div>
-          <!-- <h1 class="text-2xl font-semibold" style="color: #000000;">Login To Rozi Roti</h1> -->
           <img src="/logo.png" alt="">
         </div>
         <div class="divide-y divide-gray-200">
@@ -33,7 +29,6 @@ function togglePasswordVisibility() {
               <label for="email" class="absolute left-0 -top-3.5 text-[#545454] text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-[#000000] peer-focus:text-sm">Email Address</label>
             </div>
               <div class="relative">
-                <!-- Bind the input type based on passwordVisible ref value -->
                 <input :type="passwordVisible ? 'text' : 'password'" autocomplete="off" id="password" name="password" class="peer placeholder-transparent h-10 w-full border-b-2 border-[#545454] text-[#000000] focus:outline-none focus:border-[#45a834]" placeholder="Password" />
                 <label for="password" class="absolute left-0 -top-3.5 text-[#545454] text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-[#000000] peer-focus:text-sm">Password</label>
                 

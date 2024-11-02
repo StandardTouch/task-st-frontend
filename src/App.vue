@@ -1,13 +1,11 @@
 <script setup>
-
+import login from './features/Auth/login/login.vue';
 </script>
 
 <template>
-  <div class="flex h-screen w-screen justify-center items-center">
-    <h1 class="text-3xl font-bold">Task Management App First Screen</h1>
-  </div>
+<login/>
 </template>
 
 <style scoped>
-
+  
 </style>

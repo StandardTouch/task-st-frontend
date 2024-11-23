@@ -1,11 +1,11 @@
   <script setup>
-  import Component1 from './landing page/components/component1.vue';
+  import Component2 from './landing page/components/component2.vue';
   
 
   </script>
 
   <template>
-    <Component1/>
+    <Component2/>
     
   </template>
   

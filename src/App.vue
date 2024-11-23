@@ -1,11 +1,9 @@
 <script setup>
-import Page from './features/page.vue';
+import landingPage from "./features/landing page/components/landingPage.vue";
 </script>
 
 <template>
-  <Page/>
+  <landingPage />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

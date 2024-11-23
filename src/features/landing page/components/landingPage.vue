@@ -1,13 +1,9 @@
 <script setup>
-
+import FooterComponent from "./footerComponent.vue";
+import HeaderComponent from "./headerComponent.vue";
 </script>
 
 <template>
-  <div class="flex h-screen w-screen justify-center items-center">
-    <h1 class="text-3xl font-bold">Task Management App First Screen</h1>
-  </div>
+  <HeaderComponent />
+  <FooterComponent />
 </template>
-
-<style scoped>
-
-</style>

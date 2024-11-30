@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView } fro./features/landing_page/components/landingPage.vues/landing page/components/landingPage.vue";
+import { RouterView } from "./features/landing_page/components/landingPage.vues/landing page/components/landingPage.vue";
 </script>
 
 <template>

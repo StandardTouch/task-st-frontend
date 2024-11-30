@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import Login from "../features/Auth/login.vue";
-import LandingPage from "../features/landing page/components/landingPage.vue";
+import LandingPage from "../features/landing_page/components/landingPage.vue";
 import ForgotPassword from "@/features/Auth/ForgotPassword.vue";
 import Signup from "@/features/Auth/signup.vue";
 import UpdateProfile from "@/features/Auth/UpdateProfile.vue";

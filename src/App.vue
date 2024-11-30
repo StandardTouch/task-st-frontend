@@ -1,13 +1,10 @@
 <script setup>
-
+import { RouterView } from "vue-router";
+import landingPage from "./features/landing page/components/landingPage.vue";
 </script>
 
 <template>
-  <div class="flex h-screen w-screen justify-center items-center">
-    <h1 class="text-3xl font-bold">Task Management App First Screen</h1>
-  </div>
+  <RouterView />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

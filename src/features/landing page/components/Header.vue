@@ -29,16 +29,18 @@
 
       <!-- Login/Signup Buttons -->
       <div class="flex space-x-4">
-        <button
+        <RouterLink
           class="px-4 py-2 bg-white text-green-800 font-semibold rounded-lg hover:bg-green-200"
+          to="/login"
         >
           Login
-        </button>
-        <button
+        </RouterLink>
+        <RouterLink
           class="px-4 py-2 bg-green-700 hover:bg-green-600 rounded-lg text-white font-semibold"
+          to="/signup"
         >
           Sign Up
-        </button>
+        </RouterLink>
       </div>
     </div>
   </header>

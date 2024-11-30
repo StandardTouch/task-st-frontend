@@ -1,6 +1,5 @@
 <script setup>
-import { RouterView } from "vue-router";
-import landingPage from "./features/landing page/components/landingPage.vue";
+import { RouterView } fro./features/landing_page/components/landingPage.vues/landing page/components/landingPage.vue";
 </script>
 
 <template>

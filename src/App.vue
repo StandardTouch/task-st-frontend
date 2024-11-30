@@ -1,13 +1,9 @@
 <script setup>
-
+import landingPage from "./features/landing page/components/landingPage.vue";
 </script>
 
 <template>
-  <main>
-    <RouterView />
-  </main>
-</template>uery.
+  <landingPage />
+</template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

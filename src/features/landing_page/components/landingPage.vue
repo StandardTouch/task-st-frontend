@@ -1,7 +1,7 @@
 <script setup>
 import FooterComponent from "./Footer.vue";
 import HeaderComponent from "./Header.vue";
-import Component2 from "./Component2.vue";
+import Component2 from "./component2.vue";
 import Component1 from "./component1.vue";
 </script>
 
